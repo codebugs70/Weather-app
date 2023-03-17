@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./images/codebugs.jpg type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/5f219ec053.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link cs file -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">Create Weather App</h1>
+      <!-- main content here -->
+      <div class="weather-app">
+        <div class="weather-top">
+          <input
+            id="weather-input"
+            type="text"
+            placeholder="Enter your place..."
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="weather-container">
+          <div class="weather-img">
+            <img src="./images/weather.png" alt="weather-img" />
+          </div>
+          <div class="weather-content">
+            <h1 class="weather-degree">36°C</h1>
+            <h2 class="weather-status">Cloudy</h2>
+            <h3 class="weather-location">New York</h3>
+          </div>
+        </div>
+
+        <div class="weather-info">
+          <div class="weather-info-left">
+            <i class="fa-solid fa-wind"></i>
+            <span>
+              <h3>Wind</h3>
+              <p class="wind-value">3.2km/h</p>
+            </span>
+          </div>
+          <div class="weather-info-right">
+            <i class="fa-solid fa-droplet"></i>
+            <span>
+              <h3>Humidity</h3>
+              <p class="humid-value">35%</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- link js file -->
+    <script src="./script.js"></script>
+  </body>
+</html>
